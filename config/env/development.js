@@ -1,7 +1,9 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/clubs-manager-dev',
+	//db: 'mongodb://localhost/clubs-manager-dev',
+	db:'mongodb://root:root@ds125481.mlab.com:25481/clubs-manager',
+
 	app: {
 		title: 'clubs-manager'
 	},
