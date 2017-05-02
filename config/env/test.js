@@ -4,7 +4,7 @@ module.exports = {
 	db: 'mongodb://root:root@ds125481.mlab.com:25481/clubs-manager',
 	port: 3001,
 	app: {
-		title: '30-day-MEAN-challenge - Test Environment'
+		title: 'clubs-manager- Test Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
